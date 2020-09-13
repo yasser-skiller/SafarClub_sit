@@ -100,11 +100,11 @@ var swiper = new Swiper('.swiper-container', {
       el: '.swiper-pagination',
       clickable: true,
     },
-    loop: true,
-    autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
+   loop: true,
+  //   autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false,
+  // },
 });
 
 let slider_item = document.querySelectorAll('.swiper-slide');
