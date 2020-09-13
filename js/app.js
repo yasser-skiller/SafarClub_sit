@@ -83,7 +83,7 @@ function removepagination(){
 }
 var swiper = new Swiper('.swiper-container', {
     slidesPerView: 'auto',
-    spaceBetween: 40,
+    spaceBetween: 60,
     effect: 'coverflow',
     grabCursor: true,
     centeredSlides: true,

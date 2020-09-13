@@ -471,7 +471,7 @@ ul, ol {
                 width: 25px;
                 height: 25px; }
             .one_DayTrips .contain .card .botton .info .left p {
-              margin: auto;
+              margin: auto auto 3px auto;
               text-align: center;
               font-size: 20px !important;
               font-weight: 500; }
@@ -593,7 +593,8 @@ ul, ol {
                       flex-direction: column; } }
           .see_trips .contain2 .card2 .botton .mainInfo p {
             width: 80%;
-            font-size: 19px; }
+            font-size: 19px;
+            text-align: right; }
             @media (max-width: 420px) {
               .see_trips .contain2 .card2 .botton .mainInfo p {
                 width: 100%; } }
@@ -601,7 +602,8 @@ ul, ol {
             font-size: 15px;
             color: #f9eb21;
             cursor: pointer;
-            width: 30%; }
+            width: 30%;
+            text-align: left; }
             @media (max-width: 420px) {
               .see_trips .contain2 .card2 .botton .mainInfo .star {
                 width: 100%;
@@ -703,7 +705,7 @@ ul, ol {
           margin: 0;
           position: absolute;
           top: 95px;
-          left: 25px; }
+          left: 10px; }
           @media (max-width: 420px) {
             .see_trips .contain2 .card2 .botton .btn {
               top: 175px;
@@ -712,7 +714,7 @@ ul, ol {
             right: 5px;
             top: 14px; }
         .see_trips .contain2 .card2 .botton .class_height5 {
-          top: 120px; }
+          top: 125px; }
           @media (max-width: 420px) {
             .see_trips .contain2 .card2 .botton .class_height5 {
               top: 150px; } }
