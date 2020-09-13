@@ -531,6 +531,9 @@ ul, ol {
       .see_trips .contain2 .card2 svg {
         position: absolute;
         top: 110px; }
+        @media (max-width: 420px) {
+          .see_trips .contain2 .card2 svg {
+            top: 140px; } }
       .see_trips .contain2 .card2 .top {
         background-size: cover;
         background-position: center;
