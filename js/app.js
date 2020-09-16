@@ -64,6 +64,17 @@ setInterval(() => {
     }
 }, 100);
 
+let imgB = document.querySelector('.big-img img'),
+    imgA = document.querySelector('.big-img .gl')
+    smallerI = document.querySelectorAll('.smaller img'),
+    arr = Array.from(smallerI)
+
+arr.forEach(a =>{
+    a.addEventListener('click',(e) =>{
+        imgB.src = e.target.src
+        imgA.href = e.target.src
+    })
+})
 //pagination
 let pagination = document.querySelectorAll('.pagination span');
 let pagination_arr = Array.from(pagination)
