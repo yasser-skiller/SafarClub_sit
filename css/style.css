@@ -967,8 +967,8 @@ ul, ol {
     background-color: #013839; }
 
 .btn_back {
-  width: 200px;
-  height: 75px;
+  width: 160px;
+  height: 60px;
   background-color: #025655;
   outline: none;
   border: none;
@@ -984,7 +984,7 @@ ul, ol {
   .btn_back a {
     text-decoration: none;
     color: #fff;
-    font-size: 24px; }
+    font-size: 20px; }
 
 .footer {
   background-size: cover;
@@ -1825,8 +1825,8 @@ ul, ol {
     background-color: #013839; }
 
 .btn_back {
-  width: 200px;
-  height: 75px;
+  width: 160px;
+  height: 60px;
   background-color: #025655;
   outline: none;
   border: none;
@@ -1842,7 +1842,7 @@ ul, ol {
   .btn_back a {
     text-decoration: none;
     color: #fff;
-    font-size: 24px; }
+    font-size: 20px; }
 
 .txttttt {
   width: 90%;
@@ -1945,8 +1945,8 @@ ul, ol {
     background-color: #013839; }
 
 .btn_back {
-  width: 200px;
-  height: 75px;
+  width: 160px;
+  height: 60px;
   background-color: #025655;
   outline: none;
   border: none;
@@ -1962,4 +1962,4 @@ ul, ol {
   .btn_back a {
     text-decoration: none;
     color: #fff;
-    font-size: 24px; }
+    font-size: 20px; }
