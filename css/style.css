@@ -1322,6 +1322,14 @@ ul, ol {
       .bottonFooter p {
         width: 100%; } }
 
+.pagNotFound {
+  width: 90%;
+  margin: auto;
+  height: 70vh; }
+  .pagNotFound img {
+    width: 100%;
+    height: 100%; }
+
 .head_info {
   width: 80%;
   margin: 70px auto 40px auto;
