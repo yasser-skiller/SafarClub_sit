@@ -498,7 +498,8 @@ ul, ol {
               text-align: center; }
               .one_DayTrips .contain .card .botton .info .left .ic p {
                 color: #025655;
-                width: 100%; }
+                width: 100%;
+                margin-right: 5px; }
               .one_DayTrips .contain .card .botton .info .left .ic img {
                 width: 25px;
                 height: 25px; }
