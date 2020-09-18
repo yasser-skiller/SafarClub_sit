@@ -993,7 +993,8 @@ ul, ol {
   background-repeat: no-repeat;
   width: 100%;
   padding: 50px 0 20px 0;
-  position: relative; }
+  position: relative;
+  z-index: -1; }
   @media (max-width: 767px) {
     .footer {
       padding-top: 100px; } }
@@ -1032,23 +1033,23 @@ ul, ol {
       width: 150px; }
       @media (max-width: 992px) {
         .footer .out_div .telegram {
-          top: 12px;
-          left: 10px;
-          width: 125px; } }
+          top: 12px !important;
+          left: 10px !important;
+          width: 125px !important; } }
       @media (max-width: 767px) {
         .footer .out_div .telegram {
-          top: 50px;
-          left: 15px;
-          width: 100px; } }
+          top: 50px !important;
+          left: 15px !important;
+          width: 100px !important; } }
       @media (max-width: 450px) {
         .footer .out_div .telegram {
-          top: 70px;
-          width: 75px; } }
+          top: 70px !important;
+          width: 75px !important; } }
       @media (max-width: 350px) {
         .footer .out_div .telegram {
-          top: 77px;
-          left: 5px;
-          width: 65px; } }
+          top: 77px !important;
+          left: 5px !important;
+          width: 65px !important; } }
     .footer .out_div p {
       width: 70%;
       margin: auto;
@@ -1083,20 +1084,20 @@ ul, ol {
           margin-right: 50px; } }
       @media (max-width: 992px) {
         .footer .out_div .ele {
-          margin-right: 40px; } }
+          margin-right: 40px !important; } }
       @media (max-width: 767px) {
         .footer .out_div .ele {
           -webkit-box-orient: vertical;
           -webkit-box-direction: normal;
               -ms-flex-direction: column;
                   flex-direction: column;
-          margin: auto;
+          margin: auto !important;
           -webkit-box-align: center;
               -ms-flex-align: center;
                   align-items: center; } }
       @media (max-width: 650px) {
         .footer .out_div .ele {
-          margin: auto 10px; } }
+          margin: auto 10px !important; } }
       .footer .out_div .ele .phone {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1108,17 +1109,17 @@ ul, ol {
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
                 justify-content: space-between;
-        height: 50px;
-        width: 400px;
+        height: 50px !important;
+        width: 400px !important;
         background-color: #656565;
         border-radius: 15px; }
         @media (max-width: 992px) {
           .footer .out_div .ele .phone {
-            width: 275px; } }
+            width: 275px !important; } }
         @media (max-width: 420px) {
           .footer .out_div .ele .phone {
-            width: 200px;
-            height: 40px; } }
+            width: 200px !important;
+            height: 40px !important; } }
         .footer .out_div .ele .phone input {
           background-color: #656565;
           outline: none;
@@ -1126,15 +1127,15 @@ ul, ol {
           color: #a2a2a2;
           margin: auto 10px;
           padding: 5px;
-          width: 80%;
+          width: 80% !important;
           font-size: 18px;
           font-weight: 500;
           direction: ltr; }
           .footer .out_div .ele .phone input:focus {
             border-bottom: solid 1px #447e7f; }
         .footer .out_div .ele .phone img {
-          width: 25px;
-          height: 25px;
+          width: 25px !important;
+          height: 25px !important;
           margin: auto 10px; }
   .footer .container3 {
     width: 95%;
@@ -1343,7 +1344,7 @@ ul, ol {
       .bottonFooter p {
         width: 100%; } }
 
-.pagNotFound {
+.pagFound {
   width: 90%;
   margin: 50px auto;
   height: 80vh;
@@ -1358,7 +1359,7 @@ ul, ol {
       -ms-flex-align: center;
           align-items: center;
   padding-bottom: 150px; }
-  .pagNotFound img {
+  .pagFound .fo {
     width: 100%;
     height: 80%; }
 
@@ -1743,107 +1744,6 @@ ul, ol {
 
 .fancybox-image, .fancybox-spaceball {
   border-radius: 20px !important; }
-
-.btn {
-  position: relative;
-  width: 45%;
-  height: 40px;
-  background-color: #025655;
-  color: #fff;
-  font-size: 16px;
-  outline: none;
-  border: gray 1px solid;
-  border-radius: 5px;
-  text-align: center;
-  cursor: pointer;
-  margin: auto;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s; }
-  .btn:hover {
-    background-color: #013839; }
-  .btn img {
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    top: 13px;
-    right: 9px; }
-
-.btn2 {
-  outline: none;
-  border: none;
-  width: 120px;
-  height: 40px;
-  background-color: #16292a;
-  cursor: pointer;
-  border-radius: 10px;
-  text-align: center;
-  margin: 10px 10px 10px 0; }
-  .btn2:hover {
-    background-color: #013839; }
-  .btn2 a {
-    width: 100%;
-    color: #fff;
-    font-size: 15px;
-    text-decoration: none; }
-
-.btn3 {
-  outline: none;
-  border: none;
-  width: 120px;
-  height: 50px;
-  background-color: #447e7f;
-  cursor: pointer;
-  border-radius: 10px;
-  color: #fff;
-  text-align: center; }
-  .btn3:hover {
-    background-color: #013839; }
-  @media (max-width: 767px) {
-    .btn3 {
-      margin: 10px auto 0 auto;
-      width: 70%; } }
-  @media (max-width: 450px) {
-    .btn3 {
-      height: 35px; } }
-
-.btn4 {
-  width: 200px;
-  background-color: #025655;
-  color: #fff;
-  font-size: 16px;
-  padding: 15px 30px;
-  outline: none;
-  border: none;
-  border-radius: 15px;
-  text-align: center;
-  cursor: pointer;
-  margin: auto;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s; }
-  .btn4:hover {
-    background-color: #013839; }
-
-.btn_back {
-  width: 160px;
-  height: 60px;
-  background-color: #025655;
-  outline: none;
-  border: none;
-  border-radius: 5px;
-  text-align: center;
-  cursor: pointer;
-  margin: auto;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s; }
-  .btn_back:hover {
-    background-color: #013839; }
-  .btn_back a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px; }
 
 .txttttt {
   width: 90%;
