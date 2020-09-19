@@ -112,10 +112,7 @@ var swiper = new Swiper('.swiper-container', {
       clickable: true,
     },
    loop: true,
-  //   autoplay: {
-  //   delay: 3000,
-  //   disableOnInteraction: false,
-  // },
+  
 });
 
 let slider_item = document.querySelectorAll('.swiper-slide');
