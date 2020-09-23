@@ -64,16 +64,12 @@ setInterval(() => {
          BODY.style.overflow = 'hidden';
         if(head_Nav_info){
             head_Nav_info.style.visibility = 'hidden';
-        }else{
-            head_Nav_info.style.visibility = 'visible';
         }
     }else{
         // solve.style.backgroundColor = 'lime';
         BODY.style.overflow = 'visible';
         if(head_Nav_info){
             head_Nav_info.style.visibility = 'visible';
-        }else{
-            head_Nav_info.style.visibility = 'hidden';
         }
     }
 }, 0);
@@ -84,12 +80,10 @@ window.addEventListener("scroll",()=>{
     if (document.documentElement.scrollTop > 68) {
 
         document.querySelector(".nav-items").style.top= '0px';
-        solve.style.display = 'block';
 
     } else {
         
         document.querySelector(".nav-items").style.top= '70px';
-        solve.style.display = 'none';
     
     }
 })
