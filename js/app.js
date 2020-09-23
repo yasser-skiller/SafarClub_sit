@@ -68,7 +68,7 @@ setInterval(() => {
             head_Nav_info.style.visibility = 'visible';
         }
     }else{
-        solve.style.display = 'none';
+        solve.style.backgroundColor = 'lime';
         BODY.style.overflow = 'visible';
         if(head_Nav_info){
             head_Nav_info.style.visibility = 'visible';
