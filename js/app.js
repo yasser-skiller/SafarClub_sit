@@ -76,7 +76,7 @@ setInterval(() => {
             head_Nav_info.style.visibility = 'hidden';
         }
     }
-}, 100);
+}, 0);
 
 
 window.addEventListener("scroll",()=>{
