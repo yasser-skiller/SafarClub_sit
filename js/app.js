@@ -64,7 +64,7 @@ setInterval(() => {
         if(head_Nav_info){
             head_Nav_info.style.visibility = 'hidden';
         }
-        setInterval(() => {
+        setTimeout(() => {
             BODY.style.overflow = 'hidden';
         }, 10);
     }else{
