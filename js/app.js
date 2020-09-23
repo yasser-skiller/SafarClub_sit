@@ -78,7 +78,7 @@ setInterval(() => {
 
 window.addEventListener("scroll",()=>{
     
-    if (document.documentElement.scrollTop > 70) {
+    if (document.documentElement.scrollTop > 68) {
 
         document.querySelector(".nav-items").style.top= '0px';
 
