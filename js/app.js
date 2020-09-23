@@ -31,6 +31,7 @@ let navItem_arr = Array.from(navItem);
 let item_z = document.querySelector(".nav-items");
 let cancel = document.querySelector('.cancel-icon');
 let BODY = document.getElementsByTagName("BODY")[0];
+let head_Nav_info = document.querySelector('.header_Nav_info');
 
 
 navItem_arr.forEach(ele => {
@@ -59,11 +60,34 @@ function removeOn(){
 setInterval(() => {
     if(item_z.classList.contains('active')){
         BODY.style.overflow = 'hidden';
+        if(head_Nav_info){
+            head_Nav_info.style.visibility = 'hidden';
+        }else{
+            null
+        }
     }else{
         BODY.style.overflow = 'visible';
+        if(head_Nav_info){
+            head_Nav_info.style.visibility = 'visible';
+        }else{
+            null
+        }
     }
 }, 100);
 
+
+window.addEventListener("scroll",()=>{
+    
+    if (document.documentElement.scrollTop > 70) {
+
+        document.querySelector(".nav-items").style.top= '0px';
+
+    } else {
+        
+        document.querySelector(".nav-items").style.top= '70px';
+    
+    }
+})
 let imgB = document.querySelector('.big-img img'),
     imgA = document.querySelector('.big-img .gl')
     smallerI = document.querySelectorAll('.smaller img'),
