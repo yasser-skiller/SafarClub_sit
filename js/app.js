@@ -61,13 +61,13 @@ function removeOn(){
 setInterval(() => {
     if(item_z.classList.contains('active')){
         nav.classList.add('Do');
-        BODY.style.overflow = 'hidden';
+        // BODY.style.overflow = 'hidden';
         if(head_Nav_info){
             head_Nav_info.style.visibility = 'hidden';
         }
     }else{
         nav.classList.remove('Do');
-        BODY.style.overflow = 'visible';
+        // BODY.style.overflow = 'visible';
         if(head_Nav_info){
             head_Nav_info.style.visibility = 'visible';
         }
