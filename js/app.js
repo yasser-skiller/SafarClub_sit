@@ -32,7 +32,7 @@ let item_z = document.querySelector(".nav-items");
 let cancel = document.querySelector('.cancel-icon');
 let BODY = document.getElementsByTagName("BODY")[0];
 let head_Nav_info = document.querySelector('.header_Nav_info');
-let solve = document.querySelector(".solve");
+// let solve = document.querySelector(".solve");
 
 
 navItem_arr.forEach(ele => {
@@ -60,7 +60,7 @@ function removeOn(){
 
 setInterval(() => {
     if(item_z.classList.contains('active')){
-        solve.style.display = 'block';
+        // solve.style.display = 'block';
          BODY.style.overflow = 'hidden';
         if(head_Nav_info){
             head_Nav_info.style.visibility = 'hidden';
@@ -68,7 +68,7 @@ setInterval(() => {
             head_Nav_info.style.visibility = 'visible';
         }
     }else{
-        solve.style.backgroundColor = 'lime';
+        // solve.style.backgroundColor = 'lime';
         BODY.style.overflow = 'visible';
         if(head_Nav_info){
             head_Nav_info.style.visibility = 'visible';
