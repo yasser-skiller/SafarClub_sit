@@ -60,16 +60,16 @@ function removeOn(){
 
 setInterval(() => {
     if(item_z.classList.contains('active')){
-         BODY.style.overflow = 'hidden';
         solve.style.display = 'block';
+         BODY.style.overflow = 'hidden';
         if(head_Nav_info){
             head_Nav_info.style.visibility = 'hidden';
         }else{
             head_Nav_info.style.visibility = 'visible';
         }
     }else{
-         BODY.style.overflow = 'visible';
         solve.style.display = 'none';
+        BODY.style.overflow = 'visible';
         if(head_Nav_info){
             head_Nav_info.style.visibility = 'visible';
         }else{
@@ -84,10 +84,12 @@ window.addEventListener("scroll",()=>{
     if (document.documentElement.scrollTop > 68) {
 
         document.querySelector(".nav-items").style.top= '0px';
+        solve.style.display = 'block';
 
     } else {
         
         document.querySelector(".nav-items").style.top= '70px';
+        solve.style.display = 'none';
     
     }
 })
