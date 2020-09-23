@@ -32,7 +32,7 @@ let item_z = document.querySelector(".nav-items");
 let cancel = document.querySelector('.cancel-icon');
 let BODY = document.getElementsByTagName("BODY")[0];
 let head_Nav_info = document.querySelector('.header_Nav_info');
-// let solve = document.querySelector(".solve");
+let nav = document.querySelector(".Header nav");
 
 
 navItem_arr.forEach(ele => {
@@ -60,13 +60,13 @@ function removeOn(){
 
 setInterval(() => {
     if(item_z.classList.contains('active')){
-        // solve.style.display = 'block';
-         BODY.style.overflow = 'hidden';
+        nav.classList.add('Do');
+        BODY.style.overflow = 'hidden';
         if(head_Nav_info){
             head_Nav_info.style.visibility = 'hidden';
         }
     }else{
-        // solve.style.backgroundColor = 'lime';
+        nav.classList.remove('Do');
         BODY.style.overflow = 'visible';
         if(head_Nav_info){
             head_Nav_info.style.visibility = 'visible';
@@ -74,19 +74,6 @@ setInterval(() => {
     }
 }, 0);
 
-
-window.addEventListener("scroll",()=>{
-    
-    if (document.documentElement.scrollTop > 68) {
-
-        document.querySelector(".nav-items").style.top= '0px';
-
-    } else {
-        
-        document.querySelector(".nav-items").style.top= '70px';
-    
-    }
-})
 let imgB = document.querySelector('.big-img img'),
     imgA = document.querySelector('.big-img .gl')
     smallerI = document.querySelectorAll('.smaller img'),
