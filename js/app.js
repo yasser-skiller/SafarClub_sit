@@ -33,6 +33,14 @@ let cancel = document.querySelector('.cancel-icon');
 let BODY = document.getElementsByTagName("BODY")[0];
 let head_Nav_info = document.querySelector('.header_Nav_info');
 let nav = document.querySelector(".Header nav");
+//GoodShow
+let el2 = document.querySelectorAll('.card2');
+let el3 = document.querySelectorAll('.see_trips');
+let el4 = document.querySelectorAll('.swiper-container');
+let el5 = document.querySelectorAll('.card');
+let el6 = document.querySelectorAll('.footer');
+let el7 = document.querySelectorAll('.pagFound');
+
 
 
 navItem_arr.forEach(ele => {
@@ -62,12 +70,84 @@ setInterval(() => {
     if(item_z.classList.contains('active')){
         nav.classList.add('Do');
         // BODY.style.overflow = 'hidden';
+        if(el2){
+            ar_ele2 = Array.from(el2);
+            ar_ele2.forEach(element => {
+                element.style.zIndex = '-1';
+            });
+        }
+        if(el3){
+            ar_ele3 = Array.from(el3);
+            ar_ele3.forEach(element => {
+                element.style.zIndex = '-1';
+            });
+        }
+        if(el4){
+            ar_ele4 = Array.from(el4);
+            ar_ele4.forEach(element => {
+                element.style.zIndex = '-1';
+            });
+        }
+        if(el5){
+            ar_ele5 = Array.from(el5);
+            ar_ele5.forEach(element => {
+                element.style.zIndex = '-1';
+            });
+        }
+        if(el6){
+            ar_ele6 = Array.from(el6);
+            ar_ele6.forEach(element => {
+                element.style.zIndex = '-1';
+            });
+        }
+        if(el7){
+            ar_ele7 = Array.from(el7);
+            ar_ele7.forEach(element => {
+                element.style.zIndex = '-1';
+            });
+        }
         if(head_Nav_info){
             head_Nav_info.style.visibility = 'hidden';
         }
     }else{
         nav.classList.remove('Do');
         // BODY.style.overflow = 'visible';
+        if(el2){
+            ar_ele2 = Array.from(el2);
+            ar_ele2.forEach(element => {
+                element.style.zIndex = 'auto';
+            });
+        }
+        if(el3){
+            ar_ele3 = Array.from(el3);
+            ar_ele3.forEach(element => {
+                element.style.zIndex = 'auto';
+            });
+        }
+        if(el4){
+            ar_ele4 = Array.from(el4);
+            ar_ele4.forEach(element => {
+                element.style.zIndex = 'auto';
+            });
+        }
+        if(el5){
+            ar_ele5 = Array.from(el5);
+            ar_ele5.forEach(element => {
+                element.style.zIndex = 'auto';
+            });
+        }
+        if(el6){
+            ar_ele6 = Array.from(el6);
+            ar_ele6.forEach(element => {
+                element.style.zIndex = 'auto';
+            });
+        }
+        if(el7){
+            ar_ele7 = Array.from(el7);
+            ar_ele7.forEach(element => {
+                element.style.zIndex = 'auto';
+            });
+        }
         if(head_Nav_info){
             head_Nav_info.style.visibility = 'visible';
         }
@@ -136,6 +216,8 @@ setInterval(() => {
     
   });
 }, 100);
+
+
 
 
 /*! WOW wow.js - v1.3.0 - 2016-10-04
